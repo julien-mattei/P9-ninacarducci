@@ -41,13 +41,16 @@ header .name {
 .social-link img {
 	width: 20px;
 }
-
+main {
+	width: 100%;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+	width: 100%;
 }
 
 .picture.left::before {
@@ -93,6 +96,9 @@ header .name {
 .title{
 	text-align: center;
 	padding-block: 2em;
+}
+#gallery {
+	width: 100%;
 }
 .gallery .nav {
 	justify-content: center;
@@ -158,6 +164,7 @@ header .name {
 	margin: auto;
 	background-color: #A8D5D8 ;
 	position: relative;
+	width: 100%;
 }
 #services .container::before{
 	content: ' ';
@@ -174,6 +181,7 @@ header .name {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
+	width: 100%;
 
 }
 
