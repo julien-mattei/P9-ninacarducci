@@ -109,11 +109,11 @@ header .name {
 	color: #000
 }
 .item-column {
+	height: auto;
+	width: 430px;
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
-	height: auto;
-	width: 430px;
 }
 .item-column::after{
 	content: "";
