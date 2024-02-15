@@ -28,21 +28,23 @@ header .name {
 	font-size: 14px;
 	margin-bottom: 0;
 }
-
 .nav li {
 	padding-inline: 10px;
 }
-
 .nav a {
 	text-decoration: none;
 	color: #000
 }
-
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 main {
 	width: 100%;
+}
+.carousel-item img {
+	width: 100%;
+	height: auto;
 }
 #about {
 	display: flex;
@@ -63,7 +65,6 @@ main {
 	left: 0;
 	z-index: -1;
 }
-
 .picture {
 	flex: 1;
 	margin: 0 20px;
@@ -72,6 +73,7 @@ main {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
