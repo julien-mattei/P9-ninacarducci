@@ -265,6 +265,9 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.gallery .item-column {
+		width:100%;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -324,6 +327,9 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	.gallery .item-column {
+		width:100%;
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -358,6 +364,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.gallery .item-column {
+		width:100%;
 	}
 }
 
