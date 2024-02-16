@@ -1,5 +1,6 @@
 body {
-	max-width: 1920px;
+	width: 1920px;
+	height: auto;
 	margin: auto;
 }
 * {
@@ -57,7 +58,8 @@ main {
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
-	width: 100%;
+	width: 1920px;
+	height: auto;
 }
 
 .picture.left::before {
@@ -98,7 +100,8 @@ main {
 	padding-block: 2em;
 }
 #gallery {
-	width: 100%;
+	width: 1920px;
+	height: auto;
 }
 .gallery .nav {
 	justify-content: center;
@@ -249,6 +252,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+figure {
+	width: 1920px;
+	height: auto;
+}
+.container{
+	width: 1920px;
+	height: auto;
 }
 
 @media all and (max-width: 1180px) {
