@@ -244,8 +244,8 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-#about,#gallery,#services,#contact {
-    max-width: 1920px; 
+#about .container,#gallery .container,#services .container,#contact .container {
+    max-width: 1320px; 
 }
 @media all and (max-width: 1180px) {
 	.picture {
